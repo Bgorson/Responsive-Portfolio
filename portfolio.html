@@ -1,63 +1,65 @@
-<!-- Relative Paths Assignment 1 -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>Brandon Gorson's Portfolio</title>
+  <title>Portfolio | Brandon Gorson</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<div class = topribbon>
-<h2 id = "name">Brandon Gorson</h2>
-  <ul>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="index.html">About</a></li>
-  </ul>
-</div>
 
 <body>
 
-  <div class="container">
-
-    <section id="portfolio">
-       
-      <h2 id = "title">Portfolio</h2>
-      <hr>
-      <div class="grid-container">
-          <div class ="grid-item">
-            <img class="grid-image" src ="./assets/images/OW.jpg" alt="Sample1" style= "width:150px">
-            <a href="#">Sample1</a>
-            </div>
-            
-      <div class ="grid-item">
-          <img class="grid-image" src ="./assets/images/OW2.jfif" alt="Sample2" style= "width:150px">
-          <a href="#">Sample1</a>
-          </div>
-      <div class ="grid-item">
-          <img class="grid-image" src ="./assets/images/OW3.jpg" alt="Sample3" style= "width:150px">
-          <a href="#">Sample2</a>
-          </div> 
-      <div class ="grid-item">
-          <img class="grid-image" src ="./assets/images/OW4.jfif" alt="Sample4" style= "width:150px">
-          <a href="#">Sample3</a>
-          </div>
-      <div class ="grid-item">
-          <img class="grid-image" src ="./assets/images/OW5.jpg" alt="Sample5" style= "width:150px">
-          <a href="#">Sample4</a>
-          </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Brandon Gorson</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-      
-      
-    </section>
-  </div>
+  </header>
 
-    <div class="footer">
-        Copyright &copy;
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/ow.jpg" alt="Word Guess">
+
+        <h3>Word Guess</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/ow2.jfif" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/ow3.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/ow4.jfif" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/ow5.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
       </div>
 
+    </section>
 
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
 </body>
 
 </html>
