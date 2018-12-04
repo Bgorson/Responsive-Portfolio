@@ -229,6 +229,10 @@ input[type=submit] {
 }  
 #main-container{
   padding:0;
+  margin:0,auto,0,0;
+}
+.container {
+  width:100%;
 }
 }
 
@@ -236,15 +240,18 @@ input[type=submit] {
  nav{
    text-align: center;
    width:100%;
+   position:static;
  }
 
   .container {
-    width:100%;
     clear:none;
+     
   } 
   .mainsection{
     float:none;
   } 
+
+ 
   #logo{
     width:100%;
     text-align:center;
